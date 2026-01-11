@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    max-width: 1250px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 139px;
+    height: 60px;
+    margin: 16px;
+}
+
+.container .nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.container .nav-menu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #30B868;
+    border: none;
+    color: white;
+}
