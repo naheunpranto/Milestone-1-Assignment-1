@@ -43,6 +43,7 @@ header .container{
     background-color: #30B868;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .banner-section{
@@ -89,6 +90,7 @@ header .container{
     display: flex;
     justify-content: center;
     gap: 16px;
+    cursor: pointer;
 }
 
 .banner-btn button{
@@ -139,8 +141,9 @@ header .container{
 .card-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 16px;
+
 }
 
 .card-content{
@@ -149,6 +152,7 @@ header .container{
     padding: 24px;
     text-align: center;
     margin-bottom: 72px;
+    height: 100%;
 }
 
 .card-content img{
@@ -230,3 +234,86 @@ header .container{
     margin: 0px;
     color: black;
 }
+
+.ready-section{
+    border-radius: 12px;
+    padding: 80px 40px;
+    background-color: rgba(247, 246, 242, 1);
+    margin-bottom: 120px;
+}
+
+.ready-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.ready-section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.ready-section button{
+    margin-bottom: 16px;
+}
+
+.ready-section .free{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+footer{
+    height: 348px;
+    background-color: var(--Style, rgba(0, 25, 49, 1));
+    padding: 120px 120px 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-logo{
+    width: 139px;
+    height: 60px;
+}
+
+.footer-text h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right: 107px;
+    margin-bottom: 16px;
+}
+
+.social-logo{
+    color: white;
+    margin-right: 118px; 
+    display: flex; 
+    gap: 16px;
+    cursor: pointer;
+}
+
+.footer-bottom{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer hr{
+    border: 1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1));
+    opacity: 0.2;
+}
+
+
